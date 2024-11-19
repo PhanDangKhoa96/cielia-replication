@@ -41,22 +41,21 @@ const Features = () => {
             const features = gsap.utils.toArray(".feature") as HTMLDivElement[];
 
             features.forEach((feature) => {
-                feature &&
-                    gsap.to(feature, {
-                        yPercent: 20,
-                        startAt: {
-                            filter: "brightness(1)",
-                        },
-                        filter: "brightness(0.5)",
-                        ease: "none",
-                        scrollTrigger: {
-                            trigger: feature,
-                            start: "top top",
-                            end: "bottom top",
-                            scrub: true,
-                            // markers: true,
-                        },
-                    });
+                gsap.to(feature, {
+                    yPercent: 20,
+                    startAt: {
+                        filter: "brightness(1)",
+                    },
+                    filter: "brightness(0.5)",
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: feature,
+                        start: "top top",
+                        end: "bottom top",
+                        scrub: true,
+                        // markers: true,
+                    },
+                });
             });
         },
         {scope: sectionRef}
