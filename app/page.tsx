@@ -19,7 +19,7 @@ export default function Home() {
                     <div className="fs-25-43 flex items-center justify-center gap-x-5 text-center">
                         <Link
                             href={
-                                "https://github.com/PhanDangKhoa96/mcsaatchiabel.co.za-replication"
+                                "https://github.com/PhanDangKhoa96/cielia-replication"
                             }
                             target="_blank"
                             className="hover:underline">
