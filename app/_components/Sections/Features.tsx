@@ -66,9 +66,9 @@ const Features = () => {
                 <div
                     key={index}
                     className="feature relative isolate overflow-hidden">
-                    <div className="container grid min-h-[60vh] place-items-center py-28 text-white">
+                    <div className="container grid min-h-[60vh] place-items-center py-28 text-white lg:min-h-[80vh]">
                         <div className="flex h-full w-full flex-col items-center justify-between">
-                            <div className="flex w-full items-start justify-between gap-x-[20vw] border-t border-white pt-5 lg:mr-auto lg:max-w-[40vw]">
+                            <div className="flex w-full items-start justify-between gap-x-[20vw] border-t border-white pt-5 lg:mr-auto lg:max-w-[40vw] xl:max-w-[30vw]">
                                 <div>
                                     <span className="fs-38-56">
                                         0{index + 1}
@@ -86,7 +86,7 @@ const Features = () => {
                                 <p>{feature.subtitle}</p>
                             </div>
 
-                            <div className="flex w-full items-start justify-between gap-x-[20vw] border-t border-white pt-5 lg:ml-auto lg:w-fit lg:max-w-[48vw]">
+                            <div className="flex w-full items-start justify-between gap-x-[20vw] border-t border-white pt-5 lg:ml-auto lg:w-fit lg:max-w-[48vw] xl:max-w-[35vw]">
                                 <p className="text-xs">{feature.description}</p>
                                 <p className="text-xxs">Description.</p>
                             </div>
