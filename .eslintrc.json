@@ -1,0 +1,11 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "plugins": ["prettier"],
+  "rules": {
+      "react/jsx-key": [1, {"checkFragmentShorthand": true}],
+      "react/no-unescaped-entities": "off",
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": ["warn"],
+      "@typescript-eslint/no-explicit-any": ["warn"]
+  }
+}
