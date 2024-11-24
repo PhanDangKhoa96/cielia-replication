@@ -174,7 +174,6 @@ const Introduction = () => {
                                 <img
                                     src="/intro-1.jpg"
                                     className="h-full w-full object-cover"
-                                    loading="lazy"
                                     alt=""
                                 />
                             </div>
@@ -188,7 +187,6 @@ const Introduction = () => {
                                 <img
                                     src="/intro-2.jpg"
                                     className="h-full w-full object-cover"
-                                    loading="lazy"
                                     alt=""
                                 />
                             </div>
@@ -232,7 +230,6 @@ const Introduction = () => {
                                 <img
                                     src="/intro-3.jpg"
                                     className="h-full w-full object-cover"
-                                    loading="lazy"
                                     alt=""
                                 />
                             </div>
@@ -246,7 +243,6 @@ const Introduction = () => {
                                 <img
                                     src="/intro-4.jpg"
                                     className="h-full w-full object-cover"
-                                    loading="lazy"
                                     alt=""
                                 />
                             </div>
@@ -257,7 +253,6 @@ const Introduction = () => {
                                 <img
                                     src="/intro-5.jpg"
                                     className="h-full w-full object-cover"
-                                    loading="lazy"
                                     alt=""
                                 />
                             </div>
