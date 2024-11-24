@@ -44,7 +44,7 @@ export default function Home() {
                 </h2>
             </div>
 
-            <div className="hidden lg:block">
+            <div className="hidden space-y-52 lg:block">
                 <Introduction />
                 <Features />
             </div>
