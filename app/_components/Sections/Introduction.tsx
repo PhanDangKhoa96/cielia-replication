@@ -173,7 +173,7 @@ const Introduction = () => {
                             <div className="image relative h-full w-full">
                                 <img
                                     src="/intro-1.jpg"
-                                    className="object-cover"
+                                    className="object-cover w-full h-full"
                                     loading="lazy"
                                     alt=""
                                 />
@@ -187,7 +187,7 @@ const Introduction = () => {
                             <div className="image relative h-full w-full">
                                 <img
                                     src="/intro-2.jpg"
-                                    className="object-cover"
+                                    className="object-cover w-full h-full"
                                     loading="lazy"
                                     alt=""
                                 />
@@ -231,7 +231,7 @@ const Introduction = () => {
                             <div className="image relative h-full w-full">
                                 <img
                                     src="/intro-3.jpg"
-                                    className="object-cover"
+                                    className="object-cover w-full h-full"
                                     loading="lazy"
                                     alt=""
                                 />
@@ -245,7 +245,7 @@ const Introduction = () => {
                             <div className="image relative h-full w-full">
                                 <img
                                     src="/intro-4.jpg"
-                                    className="object-cover"
+                                    className="object-cover w-full h-full"
                                     loading="lazy"
                                     alt=""
                                 />
@@ -256,7 +256,7 @@ const Introduction = () => {
                             <div className="image relative h-full w-full">
                                 <img
                                     src="/intro-5.jpg"
-                                    className="object-cover"
+                                    className="object-cover w-full h-full"
                                     loading="lazy"
                                     alt=""
                                 />
