@@ -148,7 +148,7 @@ const Introduction = () => {
                 <div
                     className="absolute left-0 top-0 w-full will-change-transform"
                     id="lottie-container"></div>
-                <div className="mask-right absolute right-0 top-0 h-full w-[70vw] bg-white will-change-transform"></div>
+                <div className="mask-right absolute right-0 top-0 z-10 h-full w-[70vw] bg-white will-change-transform"></div>
                 <div className="container space-y-52 leading-normal text-white">
                     <h2 className="title fs-25-43">
                         Live the way you are
