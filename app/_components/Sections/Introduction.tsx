@@ -116,7 +116,7 @@ const Introduction = () => {
                     }
                 );
 
-                var imageTimeline = gsap.timeline({
+                const imageTimeline = gsap.timeline({
                     scrollTrigger: {
                         trigger: contentImage,
                         start: "top 100%",
