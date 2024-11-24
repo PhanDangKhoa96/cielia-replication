@@ -144,11 +144,11 @@ const Introduction = () => {
         <section id="introduction" className="overflow-hidden" ref={sectionRef}>
             <SectionHeader>Introduction</SectionHeader>
             <div className="relative bg-[#6a6a6a] pb-64 pt-[calc(70vh+120px)]">
-                <div className="mask-top absolute left-0 top-0 h-[60vh] w-full bg-white"></div>
+                <div className="mask-top absolute left-0 top-0 h-[60vh] w-full bg-white will-change-transform"></div>
                 <div
-                    className="absolute left-0 top-0 w-full"
+                    className="absolute left-0 top-0 w-full will-change-transform"
                     id="lottie-container"></div>
-                <div className="mask-right absolute right-0 top-0 h-full w-[70vw] bg-white"></div>
+                <div className="mask-right absolute right-0 top-0 h-full w-[70vw] bg-white will-change-transform"></div>
                 <div className="container space-y-52 leading-normal text-white">
                     <h2 className="title fs-25-43">
                         Live the way you are
@@ -173,7 +173,7 @@ const Introduction = () => {
                             <div className="image relative h-full w-full">
                                 <img
                                     src="/intro-1.jpg"
-                                    className="object-cover w-full h-full"
+                                    className="h-full w-full object-cover"
                                     loading="lazy"
                                     alt=""
                                 />
@@ -187,7 +187,7 @@ const Introduction = () => {
                             <div className="image relative h-full w-full">
                                 <img
                                     src="/intro-2.jpg"
-                                    className="object-cover w-full h-full"
+                                    className="h-full w-full object-cover"
                                     loading="lazy"
                                     alt=""
                                 />
@@ -231,7 +231,7 @@ const Introduction = () => {
                             <div className="image relative h-full w-full">
                                 <img
                                     src="/intro-3.jpg"
-                                    className="object-cover w-full h-full"
+                                    className="h-full w-full object-cover"
                                     loading="lazy"
                                     alt=""
                                 />
@@ -245,7 +245,7 @@ const Introduction = () => {
                             <div className="image relative h-full w-full">
                                 <img
                                     src="/intro-4.jpg"
-                                    className="object-cover w-full h-full"
+                                    className="h-full w-full object-cover"
                                     loading="lazy"
                                     alt=""
                                 />
@@ -256,7 +256,7 @@ const Introduction = () => {
                             <div className="image relative h-full w-full">
                                 <img
                                     src="/intro-5.jpg"
-                                    className="object-cover w-full h-full"
+                                    className="h-full w-full object-cover"
                                     loading="lazy"
                                     alt=""
                                 />
