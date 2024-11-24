@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Features from "./_components/Sections/Features";
+import Introduction from "./_components/Sections/Introduction";
 
 export default function Home() {
     return (
@@ -16,7 +17,7 @@ export default function Home() {
                         Replication
                     </h1>
 
-                    <div className="fs-25-43 flex items-center justify-center gap-x-5 text-center">
+                    <div className="flex items-center justify-center gap-x-5 text-center fs-25-43">
                         <Link
                             href={
                                 "https://github.com/PhanDangKhoa96/cielia-replication"
@@ -36,10 +37,20 @@ export default function Home() {
                 </div>
             </div>
 
-            <Features />
+            <div className="container grid h-screen place-items-center lg:hidden">
+                <h2 className="text-balance uppercase fs-38-56">
+                    Apologies, this screen is currently not optimized for mobile
+                    devices and is only available for screens wider than 1024px.
+                </h2>
+            </div>
+
+            <div className="hidden lg:block">
+                <Introduction />
+                <Features />
+            </div>
 
             <div className="container grid h-screen place-items-center">
-                <h2 className="fs-40-85 text-balance uppercase">
+                <h2 className="text-balance uppercase fs-40-85">
                     Stay tuned for more demos and features!
                 </h2>
             </div>
