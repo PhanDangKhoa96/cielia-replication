@@ -3,6 +3,7 @@
 import {useGSAP} from "@gsap/react";
 import gsap from "gsap";
 import React, {useRef} from "react";
+import SectionHeader from "./SectionHeader";
 
 const features = [
     {
@@ -61,7 +62,8 @@ const Features = () => {
         {scope: sectionRef}
     );
     return (
-        <section ref={sectionRef} className="overflow-hidden">
+        <section ref={sectionRef} className="overflow-hidden" id="parallax-content-image">
+            <SectionHeader>Parallax Content Image</SectionHeader>
             {features.map((feature, index) => (
                 <div
                     key={index}
@@ -80,7 +82,7 @@ const Features = () => {
                                 <p className="text-xxs">Number of contents.</p>
                             </div>
                             <div className="text-center">
-                                <h2 className="fs-40-85 mb-2 uppercase">
+                                <h2 className="mb-2 uppercase fs-40-85">
                                     {feature.title}
                                 </h2>
                                 <p>{feature.subtitle}</p>
