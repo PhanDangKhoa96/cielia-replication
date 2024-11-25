@@ -54,7 +54,7 @@ function LottieScrollTrigger(vars: LottieScrollTriggerVars): AnimationItem {
         pin: false,
         start: "top 60%",
         end: "top -40%",
-        scrub: 1,
+        scrub: 0.6,
     };
 
     const ctx = (gsap.context && gsap.context()) as GSAPContext | undefined;

@@ -22,7 +22,7 @@ const Introduction = () => {
                     trigger: "#lottie-container",
                     start: "top 60%",
                     end: "top -40%",
-                    scrub: 1,
+                    scrub: 0.6,
                 },
             });
             layoutTimeline.to(
@@ -121,7 +121,7 @@ const Introduction = () => {
                         trigger: contentImage,
                         start: "top 100%",
                         end: "bottom 0%",
-                        scrub: true,
+                        scrub: 0.6,
                     },
                 });
 
