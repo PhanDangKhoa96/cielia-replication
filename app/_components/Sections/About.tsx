@@ -56,7 +56,7 @@ const AboutSection = () => {
                     <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[rgb(255,255,255)] from-75% to-[rgba(255,255,255,0)] to-100%"></div>
                 </div>
 
-                <div className="ml-auto w-1/2 pl-[10vw] pt-36">
+                <div className="ml-auto w-1/2 pl-[10vw] pt-36 pb-40">
                     <p>
                         Many feel suffocated by the pressure to seek more than
                         necessary or follow others' choices.
