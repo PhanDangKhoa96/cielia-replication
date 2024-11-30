@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Features from "./_components/Sections/Features";
 import Introduction from "./_components/Sections/Introduction";
+import AboutSection from "./_components/Sections/About";
 
 export default function Home() {
     return (
@@ -33,6 +34,13 @@ export default function Home() {
                             className="hover:underline">
                             All demos
                         </Link>
+                        <span>|</span>
+                        <Link
+                            href={"https://www.lummi.ai/"}
+                            target="_blank"
+                            className="hover:underline">
+                            Images
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -47,6 +55,7 @@ export default function Home() {
             <div className="hidden space-y-52 lg:block">
                 <Introduction />
                 <Features />
+                <AboutSection />
             </div>
 
             <div className="container grid h-screen place-items-center">
