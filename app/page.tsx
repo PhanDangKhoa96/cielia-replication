@@ -3,6 +3,7 @@ import Features from "./_components/Sections/Features";
 import Introduction from "./_components/Sections/Introduction";
 import AboutSection from "./_components/Sections/About";
 import Services from "./_components/Sections/Services";
+import Improvements from "./_components/Sections/Improvements";
 
 export default function Home() {
     return (
@@ -58,6 +59,7 @@ export default function Home() {
                 <Features />
                 <AboutSection />
                 <Services />
+                <Improvements />
             </div>
 
             <div className="container grid h-screen place-items-center">
