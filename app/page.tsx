@@ -2,6 +2,7 @@ import Link from "next/link";
 import Features from "./_components/Sections/Features";
 import Introduction from "./_components/Sections/Introduction";
 import AboutSection from "./_components/Sections/About";
+import Services from "./_components/Sections/Services";
 
 export default function Home() {
     return (
@@ -56,6 +57,7 @@ export default function Home() {
                 <Introduction />
                 <Features />
                 <AboutSection />
+                <Services />
             </div>
 
             <div className="container grid h-screen place-items-center">

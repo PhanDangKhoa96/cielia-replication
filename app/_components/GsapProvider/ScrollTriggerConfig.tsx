@@ -8,11 +8,16 @@ import {useEffect, useLayoutEffect} from "react";
 gsap.registerPlugin(ScrollTrigger);
 
 export function ScrollTriggerConfig() {
-    useLayoutEffect(() => {
+    const lenis = useLenis(ScrollTrigger.update);
+
+    useEffect(() => {
         ScrollTrigger.clearScrollMemory("manual");
+
+        return () => {
+            ScrollTrigger.clearScrollMemory("manual");
+        };
     }, []);
 
-    const lenis = useLenis(ScrollTrigger.update);
     useEffect(() => ScrollTrigger.refresh(), [lenis]);
 
     return null;
