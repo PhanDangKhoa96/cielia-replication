@@ -46,7 +46,7 @@ const Services = () => {
                         start: "top 0%",
                         end: "bottom -50%",
                         scrub: true,
-                        markers: true,
+                        // markers: true,
                     },
                 });
             });
