@@ -4,6 +4,7 @@ import Introduction from "./_components/Sections/Introduction";
 import AboutSection from "./_components/Sections/About";
 import Services from "./_components/Sections/Services";
 import Improvements from "./_components/Sections/Improvements";
+import Gallery from "./_components/Sections/Gallery";
 
 export default function Home() {
     return (
@@ -60,6 +61,7 @@ export default function Home() {
                 <AboutSection />
                 <Services />
                 <Improvements />
+                <Gallery />
             </div>
 
             <div className="container grid h-screen place-items-center">
