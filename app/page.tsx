@@ -66,7 +66,7 @@ export default function Home() {
 
             <div className="container grid h-screen place-items-center">
                 <h2 className="text-balance uppercase fs-40-85">
-                    Stay tuned for more demos and features!
+                  Have a good day!
                 </h2>
             </div>
         </div>
